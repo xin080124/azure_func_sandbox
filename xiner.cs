@@ -19,6 +19,9 @@ namespace MyFunctionProj
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
+            Xiner_ref xiner_ref = new Xiner_ref();
+            xiner_ref.RefTest();
+
             string name = req.Query["name"];
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
