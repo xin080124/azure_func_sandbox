@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "f99e60df-3bc8-43f8-af0b-13854a986a28",
+		"name": "gitRepoTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "azure",
+			"item": [
+				{
+					"name": "local_azure_func",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7071/api/xiner?name=puppy1041",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7071",
+							"path": [
+								"api",
+								"xiner"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "puppy1041"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
